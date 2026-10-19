@@ -2,7 +2,7 @@ secret_number = 5
 attempt = 0
 
 while attempt < 5:
-    guess = int(input("Guess the secret number from 1 UpTo 10: "))
+    guess = int(input("Guess the secret number from 1 UpTo 10: ")) #we put the input part inside the loop because we want to iterate it if the guess is wrong.
     attempt += 1
 
     if guess == secret_number:
