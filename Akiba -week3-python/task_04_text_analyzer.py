@@ -79,7 +79,7 @@ print("Characters excluding spaces:", count_characters(text))
 print("Vowels:", count_vowels(words))
 print("Consonants:", count_consonants(words))
 print("Longest word:", find_longest_word(words))
-frequency = count_word_frequency(words):
+frequency = count_word_frequency(words)
 print("Word frequency:", frequency)
 print("Repeated words:", find_repeated_words(frequency))
 print("Five most frequent words:", find_top_five(frequency))
